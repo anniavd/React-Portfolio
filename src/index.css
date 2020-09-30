@@ -1,13 +1,80 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+*{
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+main {
+	margin: 0 auto;
+	max-width: 90%;
+  padding: 50px 30px;
+}
+
+:root{
+  --primary-color:darkgrey;
+ --secundary-color:grey;
+}
+body {
+  color:black;
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: rgb(208, 218, 208);
+}
+  /* style header star */
+header {
+  padding: 10px 0px;
+  background-color:rgb(36, 34, 34);
+  display: flex;
+  justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;  
+  top: 0;
+  background-attachment: fixed;
+  background-position: 80%; 
+  z-index: 9999; 
+}
+
+header h1 {
+ font-weight: bold;
+ font-size: 34px;
+ color: rgb(29, 27, 27);
+ background-color:gray ;     
+ padding-left: 40px;
+ margin: 0;
+}
+
+header a {
+text-decoration-color: --primary-color;
+color:rgb(78, 78, 107) ;
+}
+
+header nav {
+   margin-top:auto;
+}
+
+header nav ul  {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+list-style: none;
+}
+
+header nav ul li a {
+margin:0 10px ;      
+font-weight: lighter ;
+font-size: 1.8vw;
+color:rgb(78, 78, 107)
+}   
+/*animation*/
+header nav ul li a:hover{
+    text-shadow: 0 0 20px rgb(26, 219, 210);
+}
+
+p{
+  color:rgb(14, 14, 56);
+  padding: 15px;
+  text-align: start;
+  font-size: 18px;
 }
