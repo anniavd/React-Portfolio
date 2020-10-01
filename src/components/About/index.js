@@ -6,7 +6,6 @@ import img from '../../assets/images/pintura.jpg';
 
 
 function About() {
-  
     return (
         <section>
             <h1 id="about">About me</h1>
