@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import About from './components/About';
 import Nav from './components/Nav';
-//import './App.css';
+import Footer from './components/Footer';
+import Contact from './components/Contact';
+
 
 function App() {
 
@@ -28,9 +30,10 @@ function App() {
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
       ></Nav>
-     <main>      
+     <main>             
        <About></About>
      </main>
+     <Footer></Footer>
     </div>
   );
 }
