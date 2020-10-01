@@ -25,7 +25,7 @@ main{
   width: 100%;
   position: relative;
   padding: 50px 0px;
-  background-color:rgb(243, 128, 128);
+  background-color:rgb(233, 142, 39);
   display: flex;
   justify-content: space-between;
   position: -webkit-sticky;
@@ -66,6 +66,11 @@ cursor: pointer;
 header nav ul li :hover{
     text-shadow: 0 0 20px rgb(26, 219, 210);
 }
+
+.navActive {
+  color:  #d3381d;
+}
+
 
 /*style secction About*/
 h1{
