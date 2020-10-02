@@ -45,9 +45,10 @@ function Contact() {
 
 
     return (
+        <main>
         <section>
             <h1 data-testid="h1">Contact me</h1>
-            <form id="contact-form" onSubmit={handleSubmit}>
+            <form id="contact-form" className="FormStyle" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
                     <input type="text" defaultValue={name} onBlur ={handleChange} name="name" />
@@ -68,6 +69,7 @@ function Contact() {
                <button data-testid="Submit" type="submit">Submit</button>
             </form>
         </section>
+        </main>
     );
 }
 

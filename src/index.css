@@ -32,7 +32,9 @@ main{
   margin-bottom: 50px;
  
 }
-
+header a{
+  text-decoration: none;  
+}
 header h2 {
  font-weight: bold;
  font-size: 34px;
@@ -53,7 +55,7 @@ align-items: center;
 list-style: none;
 }
 
-header nav ul li {
+header nav ul li a {
 margin-right: 20px;     
 font-weight: lighter ;
 font-size: 1.8vw;
@@ -85,6 +87,17 @@ p{
   font-size: 18px;
 }
 
+/*contact*/
+.FormStyle {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  border-radius: 5px;
+  background: rgba(0,0,0, .6);
+  margin: auto;
+}
+
 /*footer*/
 .footer{
  
@@ -97,7 +110,7 @@ p{
 .footer ul{
 display: flex;
 flex-wrap: wrap;
-justify-content: space-between;
+/*justify-content: space-between;*/
 align-items: center;
 list-style: none;  
 }

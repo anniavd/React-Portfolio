@@ -7,6 +7,7 @@ import img from '../../assets/images/pintura.jpg';
 
 function About() {
     return (
+        <main>
         <section>
             <h1 id="about">About me</h1>
             <Row>
@@ -22,6 +23,7 @@ function About() {
             SQL, NoSQL, MongoDB, Node.js, Express, ApisResful and React.
          </p>
         </section>
+        </main>
     );
 }
 
