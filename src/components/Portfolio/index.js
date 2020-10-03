@@ -1,36 +1,40 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
-import{ faGithubSquare} from '@fortawesome/free-brands-svg-icons';
+import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import Container from 'react-bootstrap/Container'
+
 
 //name,image,githubLink,deploy,description,technologies
 
-function Portfolio(props){
+function Portfolio(props) {
 
 
   console.log(props)
-return(
-    <main>
-      <h1>Portfolio</h1>
-    <CardDeck>
-    <Card>
-      <Card.Body>
-        <Card.Title>{props.name}</Card.Title>
-        <Card.Img variant="top" src= {require(`../../assets/images/${props.image}`)} alt={props.name}/>
-        <Card.Text>
-         {props.description}
-        </Card.Text>
-      </Card.Body>
-      <Card.Footer>
-      <p>{props.technologies}<a href={props.githubLink} target="_blank"  rel ="noopener noreferrer"style={{fontSize:'40px',color:'orange'}}><FontAwesomeIcon icon={faGithubSquare} /> </a> </p>
-        <small className="text-muted">
-</small>
-      </Card.Footer>
-    </Card>
-    </CardDeck>
-    </main>
-)
+  return (
+
+    <Row md={3}>
+      <Col>
+        <h3>{props.name}</h3>
+        <div className="Project card">
+          <a href={props.githubLink} target="blank">
+            <img className="images"
+              src={require(`../../assets/images/${props.image}`)} alt={props.name}
+
+            />
+          </a>
+          <div className="Project-meta">
+            <h5>{props.technologies}</h5>
+            <a href={props.githubLink} target="_blank" rel="noopener noreferrer" style={{ fontSize: '20px', color: 'black' }}><FontAwesomeIcon icon={faGithubSquare} /> </a>
+          </div>
+        </div>
+      </Col>
+    </Row >
+
+  )
 }
 
 export default Portfolio;
