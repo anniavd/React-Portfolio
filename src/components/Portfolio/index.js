@@ -2,27 +2,30 @@ import React from 'react';
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
 import{ faGithubSquare} from '@fortawesome/free-brands-svg-icons';
-import { faProjectDiagram } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 //name,image,githubLink,deploy,description,technologies
 
 function Portfolio(props){
 
+
   console.log(props)
 return(
     <main>
+      <h1>Portfolio</h1>
     <CardDeck>
     <Card>
-      <Card.Img variant="top" src="" />
       <Card.Body>
-        <Card.Title>anna{props.name}</Card.Title>
+        <Card.Title>{props.name}</Card.Title>
+        <Card.Img variant="top" src= {require(`../../assets/images/${props.image}`)} alt={props.name}/>
         <Card.Text>
-          This is a wider card with supporting text below as a natural lead-in to
-          additional content. This content is a little bit longer.
+         {props.description}
         </Card.Text>
       </Card.Body>
       <Card.Footer>
-        <small className="text-muted">Last updated 3 mins ago</small>
+      <p>{props.technologies}<a href={props.githubLink} target="_blank"  rel ="noopener noreferrer"style={{fontSize:'40px',color:'orange'}}><FontAwesomeIcon icon={faGithubSquare} /> </a> </p>
+        <small className="text-muted">
+</small>
       </Card.Footer>
     </Card>
     </CardDeck>
