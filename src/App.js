@@ -3,29 +3,16 @@ import About from './components/About';
 import Navegation from './components/Navegation';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
-import Portfolio from './components/Portfolio';
+import AppsList from './components/AppsList';
 
 
 function App() {
 
- /* const [categories] = useState([
-    
-    { name: "About me"},        
-    { name: "Portfolio"},
-     { name: "Contact"},
-     { name: "Resume"},        
-     
-  ]);*/
   
- 
-
-  //const [currentCategory, setCurrentCategory] = useState(categories[0]);
- // const [contactSelected, setContactSelected] = useState(false); //single-page application
-
 const [currentPage,setCurrentPage]=useState('About')
   const renderPage=()=>{
     switch(currentPage){
-      case 'Portfolio': return <Portfolio/>;
+      case 'Portfolio': return <AppsList/>;
       case 'Contact':return <Contact/>;
      // case 'Resume': return <Resume/>;
       default: return <About/>
