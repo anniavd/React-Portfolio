@@ -2,23 +2,23 @@ import React, { useState } from 'react';
 import  Portfolio from '../Portfolio/index'
 
 
+
 function AppsList(){
 
     const [apps] = useState([
         {
-            id:1,
-            name: 'Istartist',
+             name: 'Istartist',
             image:'instartist.jpg',
-            githubLink: 'https://instartist.herokuapp.com/" target="_blank',
-            deploy: `https://instartist.herokuapp.com/" target="_blank`,
+            githubLink: 'https://github.com/anniavd/Instartist',
+            deploy: 'https://instartist.herokuapp.com/' ,
             description: 'Instartist is a social media application for virtually exhibiting  works created by artists',
             technologies: 'Sequelize,Express,MySQL2, Cloudinary,Multer'
         },
         {
-            id:2,
+            
             name: 'E-commerce',
-            image:'annia.jpg',
-            githubLink: 'commercial',
+            image:'e-commerce.jpg',
+            githubLink: 'https://github.com/anniavd/E-commerce',
             deploy: `https://instartist.herokuapp.com/" target="_blank`,
             description: 'Instartist is a social media application for virtually exhibiting  works created by artists',
             technologies: 'Sequelize,Express,MySQL2, Cloudinary,Multer'
@@ -29,7 +29,7 @@ function AppsList(){
     return (
         <main>
               <div>              
-                   {apps.map((project) => (<Portfolio  testProject='testproject' {...project} key={project.id}/>))}
+                   {apps.map((project) => (<Portfolio  {...project} key={project.name}/>))}
                </div>            
         </main>
     );
