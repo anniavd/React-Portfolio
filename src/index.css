@@ -103,17 +103,18 @@ p{
   
 }
 .contact h1, label,.btn{
-  color: white;
+  color: black;
   margin-bottom: 10px;
 }
 .btn{
-  width: 50%;
+  width: 30%;
+  border-radius: 2px;
   cursor: pointer;
-  border: 2px solid white;
+  border: 2px solid rgb(240, 214, 166);  
   text-transform: uppercase;
 }
 .btn:hover{
-  background-color: white;
+  background-color: orangered;
   color:black;
 }
 
@@ -190,6 +191,39 @@ p{
   display: block;
 }
 
+/*form*/
+form {
+  width: 50%;
+}
+
+
+.FormStyle {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  border-radius: 5px;
+  background: rgba(238, 180, 54, 0.6);
+  margin: auto;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem; 
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+
+textarea {
+	width: 350px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+}
+
+/*****/
 
 @media screen and (max-width: 768px) {
 	.Project {
