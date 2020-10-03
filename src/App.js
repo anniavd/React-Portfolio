@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Container from 'react-bootstrap/Container'
 import About from './components/About';
 import Navegation from './components/Navegation';
 import Footer from './components/Footer';
@@ -23,7 +24,11 @@ const [currentPage,setCurrentPage]=useState('About')
     <div>
      <Navegation currentPage={currentPage} setCurrentPage={setCurrentPage}/>
      {renderPage()}
+     <Container>
+     <main >
      <Footer></Footer>
+     </main>
+     </Container>
     </div>
   );
 }
