@@ -3,6 +3,7 @@ import About from './components/About';
 import Navegation from './components/Navegation';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
+import Portfolio from './components/Portfolio';
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
 const [currentPage,setCurrentPage]=useState('About')
   const renderPage=()=>{
     switch(currentPage){
-     // case 'Portfolio': return <Portfolio/>;
+      case 'Portfolio': return <Portfolio/>;
       case 'Contact':return <Contact/>;
      // case 'Resume': return <Resume/>;
       default: return <About/>
