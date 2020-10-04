@@ -35,13 +35,14 @@ main{
   background-color:orange;
   display: flex;
   justify-content: space-between; 
-  margin-bottom: 35px; 
-flex-wrap: wrap;
+  margin-bottom: 18px; 
+ flex-wrap: wrap;
  
 }
 header a{
-  text-decoration: none;  
+  text-decoration: none;    
 }
+
 header h2 {
  font-weight: bold;
  font-size: 34px;
@@ -72,7 +73,7 @@ cursor: pointer;
 }   
 /*animation*/
 header nav ul li :hover{
-    text-shadow: 0 0 20px rgb(26, 219, 210);
+    text-shadow: 0 0 20px rgb(243, 99, 33);
 }
 
 .navActive {
@@ -82,9 +83,9 @@ header nav ul li :hover{
 
 /*style secction About*/
 h1,h3{
-  font-size: 34px;
-  padding-bottom: 20px;
-  color:orange;
+  font-size: 30px;
+  padding-bottom: 14px;
+  color:rgb(230, 161, 33);
 }
 
 p{
@@ -119,20 +120,23 @@ p{
 }
 
 /*footer*/
-.footer{
- 
+.footer{ 
   display: flex;    
   align-items:center;      
   flex-wrap: wrap;
-  bottom: 30px;
-  align-items: center;
+  /*bottom: 30px;*/
+  color:black;
+  text-transform: uppercase;
+   background-color:orange;
+   text-align: center;
+   padding-top: 20px; 
 }
 
 .footer  a{
   text-decoration: none;        
   color:black;
   margin:0 15px ;  
-  font-size: 20px;   
+  font-size: 40px;   
   align-content: center;        
  }
 
@@ -215,7 +219,6 @@ input {
   transition: box-shadow 0.2s;
 }
 
-
 textarea {
 	width: 350px;
 	height: 120px;
@@ -224,7 +227,18 @@ textarea {
 }
 
 /*****/
+/*Resume*/
+.elemtContact  ul  {
+  text-decoration-color:--secundary-color;
+   text-decoration-style:10 px solid;    
+   text-decoration: underline;        
+   color:rgb(78, 78, 107);
+   margin:0 50px ;    
+   font-weight: bold ;
+   font-size: 20px;           
+  }
 
+ 
 @media screen and (max-width: 768px) {
 	.Project {
 		margin: 2rem;
