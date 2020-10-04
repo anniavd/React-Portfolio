@@ -1,11 +1,8 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card'
-import CardDeck from 'react-bootstrap/CardDeck'
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Container from 'react-bootstrap/Container'
 
 
 //name,image,githubLink,deploy,description,technologies
