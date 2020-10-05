@@ -1,5 +1,8 @@
 import React from 'react';
 import  Skills from '../skills/index';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFile } from '@fortawesome/free-solid-svg-icons';
+//<i class="fas fa-file-alt"></i>
 
 function Resume() {
 
@@ -19,7 +22,7 @@ function Resume() {
 	];
 
 	const back = [
-		'NODE.js',
+		'Node.js',
 		'Express.js',
 		'MySQL',
 		'NoMySQl',
@@ -32,13 +35,13 @@ function Resume() {
 
 	return (
         <main>
-		<div className="Resume" id="cv">
+		<div className="resume" >
 			<h2>
-				Download the Resume {' '}
-				<a	href="https:"   rel="noopener noreferrer"	target="_blank"	>Here</a>
+				See the Resume {' '}
+				<a	href="https://docs.google.com/document/d/1gQVMJ_44nAI9LxOkditZbVPTkwUpZovGTGVlQDBMLgw/edit?usp=sharing"   rel="noopener noreferrer"	target="_blank"	><FontAwesomeIcon icon={faFile} /></a>
 			</h2>
 			<h3>Front-end Skills</h3>
-			<ul  className="elemtContact">{front.map((fbend) => <Skills  fbend={fbend} key={fbend}/>)}</ul>	
+			<ul  className="elemtSkill">{front.map((fbend) => <Skills  fbend={fbend} key={fbend}/>)}</ul>	
 			<h3>Back-end Skills</h3>
 			<ul>{back.map((fbend) => <Skills fbend={fbend} key={fbend}  />)}</ul>	
 			<h3>Others Skills</h3>

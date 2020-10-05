@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Skills({ fbend }) {
-    console.log(fbend)
+    //render a list of skills
     return (
 
         <section>

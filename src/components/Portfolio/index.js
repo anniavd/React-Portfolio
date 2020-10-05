@@ -5,16 +5,14 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
 
-//name,image,githubLink,deploy,description,technologies
 
 function Portfolio(props) {
 
-
-  console.log(props)
+//render all the applications in Portfolio
   return (
 
-    <Row md={3}>
-      <Col>
+    <Row >
+      <Col mb={3}>
         <h3>{props.name}</h3>
         <div className="Project card">
           <a href={props.githubLink} target="blank">
@@ -24,8 +22,8 @@ function Portfolio(props) {
             />
           </a>
           <div className="Project-meta">
-            <h5>{props.technologies}</h5>
-            <a href={props.githubLink} target="_blank" rel="noopener noreferrer" style={{ fontSize: '20px', color: 'black' }}><FontAwesomeIcon icon={faGithubSquare} /> </a>
+            <p>{props.technologies}</p>
+            <a href={props.githubLink} target="_blank" rel="noopener noreferrer" ><FontAwesomeIcon icon={faGithubSquare} /> </a>
           </div>
         </div>
       </Col>
