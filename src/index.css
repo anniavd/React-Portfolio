@@ -16,7 +16,7 @@ main{
   padding: 50px 50px;
 }
 :root{
-  --primary-color:darkgrey;
+  --primary-color:#9a031e;
  --secundary-color:grey;
 }
 
@@ -76,7 +76,7 @@ cursor: pointer;
 }   
 /*animation*/
 header nav ul li :hover{
-    text-shadow: 0 0 20px #283618;
+    text-shadow: 0 0 20px #220783;
 }
 
 .navActive {
@@ -254,7 +254,9 @@ ul{
   font-size: 18px; 
 
 }
-
+h1,h2,h3,a{
+  font-family: 'Abril Fatface', cursive
+}
 /*MEdiaQueries*/
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 
@@ -334,3 +336,6 @@ font-size: 25px;
 font-size: 10px;
   }
 }
+
+/* font-family: 'Abril Fatface', cursive;
+font-family: 'Alegreya', serif;*/

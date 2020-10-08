@@ -22,8 +22,8 @@ function About() {
                         I worked in software development projects at the University of Computer Sciences (UCI ).
                         During this time I assumed the roles like a Principal System Analyst, Project Leader,
                        Unit Test Designer for the software and Software Quality Control.<br></br>
-
-                         I am friendly, charismatic and I like to research.
+                       <br></br>
+                       As a developer I am looking for new challenges. I am friendly, charismatic and I like to research.
                         I like to watch documentaries, to travel and to go out with my family.
 
                           </p>

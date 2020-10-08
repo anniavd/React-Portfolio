@@ -1,6 +1,8 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCode } from '@fortawesome/free-solid-svg-icons';
 
-
+//<i class="fas fa-code"></i>
 function Navegation(props) {
 
   const tabs = ['About', 'Portfolio', 'Contact','Resume'];
@@ -8,7 +10,7 @@ function Navegation(props) {
  
   return (
     <header className="navegation">
-      <h2>
+      <h2 ><FontAwesomeIcon icon={faCode}  style={{fontSize:'20px'}}/>
         Annia Valdes
      </h2>
   <nav>

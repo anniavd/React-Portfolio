@@ -58,6 +58,20 @@ function AppsList(){
             deploy:'https://anniavd.github.io/weather-dashboard/', 
             technologies: 'HTML/CSS,JAVASCRIPT,BOOTSTRAP'
         },
+        {            
+            name: 'Post Pandemic Dating',
+            image:'project1.png',
+            githubLink: 'https://github.com/anniavd/post-pandemic-dating',
+            deploy:'https://anniavd.github.io/post-pandemic-dating/', 
+            technologies: 'HTML/CSS,JAVASCRIPT,JQUERY,MATERIALIZE,APIS'
+        },
+        {            
+            name: 'Work Day Scheduler',
+            image:'scheduler.jpg',
+            githubLink: 'https://github.com/anniavd/work-day-scheduler',
+            deploy:'https://anniavd.github.io/work-day-scheduler/', 
+            technologies: 'HTML/CSS, JQUERY,BOOTSTRAP'
+        }
 
     ]);
 
