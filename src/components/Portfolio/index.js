@@ -12,10 +12,10 @@ function Portfolio(props) {
   return (
 
     <Row >
-      <Col mb={2}>
+      <Col mb={3}>
         <h3>{props.name}</h3>
         <div className="Project">
-          <a href={props.githubLink} target="blank">
+          <a href={props.deploy} target="blank">
             <img className="images"
               src={require(`../../assets/images/${props.image}`)} alt={props.name}
 

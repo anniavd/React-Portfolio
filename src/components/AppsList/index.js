@@ -39,11 +39,11 @@ function AppsList(){
         },
         {            
             name: 'Password Generator',
-            image:'weather.jpg',
-            githubLink: 'https://anniavd.github.io/password-generator/',
+            image:'password.jpg',
+            githubLink: 'https://github.com/anniavd/password-generator',
             deploy: 'https://anniavd.github.io/password-generator/',
             technologies: 'HTML/CSS,JAVASCRIPT'
-        },
+        },        
         {            
             name: 'Employee Tracker',
             image:'employee.jpg',
@@ -53,7 +53,7 @@ function AppsList(){
         },
         {            
             name: 'Weather Dashboard',
-            image:'password.jpg',
+            image:'weather.jpg',
             githubLink: 'https://github.com/anniavd/weather-dashboard',
             deploy:'https://anniavd.github.io/weather-dashboard/', 
             technologies: 'HTML/CSS,JAVASCRIPT,BOOTSTRAP'
