@@ -11,7 +11,7 @@ The **portfolio** is the resume of my career as developer. You can read about me
   
  ![Homepage](src/assets/images/screenshot.jpg)
  _____________________________________________________________________
- Visit the site! [Portfolio](https:)
+ Visit the site! [Portfolio](https://anniavd.github.io/react-portfolio/)
 
  
 # License
