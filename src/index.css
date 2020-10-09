@@ -1,30 +1,26 @@
 * {
-
-  padding: 0;
-}
-*{
+margin: 0;
+  padding: 0; 
   box-sizing: border-box;
 }
 
- body{
-	margin: 0 auto;
-	background-color: #eae2b7;
-}
-
-main{
-  max-width: 90%;
-  padding: 50px 50px;
-}
 :root{
   --primary-color:#9a031e;
  --secundary-color:grey;
 }
 
+
+main{
+  max-width: 90%;
+  padding: 50px 50px;
+}
+
+
 .about {
   width: 100%;
   padding-left: 2vh;
   padding-right: 2vh;
-  /*text-align: center;*/
+
 }
 
 
@@ -34,15 +30,19 @@ main{
   position: relative;
   flex-wrap: wrap;
   display: flex;
-  padding: 35px 0px;
+  padding: 25px 0px;
   background-color:#cb997e;
   justify-content: space-between; 
-  margin-bottom: 18px; 
+  margin-bottom: 10px; 
  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ position: sticky;
+ top: 0;
+ z-index: 9999;
 }
 
 header a{
-  text-decoration: none;    
+  text-decoration: none;  
+  color: var(--primary-color);  
 }
 
 header h2 {
@@ -70,7 +70,7 @@ header nav ul li a {
 margin-right: 20px;     
 font-weight: lighter ;
 font-size:28px;
-color:#9a031e;
+color:--primary-color;
 cursor: pointer;
 
 }   
@@ -88,13 +88,14 @@ header nav ul li :hover{
 h1,h3{
   font-size: 30px;
   padding-bottom: 14px;
-  color:#9a031e;
+  color:var(--primary-color);
 }
 
 p{
    padding: 15px;
   text-align: start;
-  font-size: 18px;
+  font-size: 24px;
+  font-family: 'Alegreya', serif;
 }
 
 .otherForm{
@@ -109,14 +110,14 @@ p{
 .otherForm label{
 font-size: 18px;
 font-weight: bold;
-color: #9a031e;
+color: var(--primary-color);
 }
 
 .Btn-submit{
  height: 30px;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #9a031e;
+  background-color: var(--primary-color);
 }
 
 /*footer*/
@@ -145,13 +146,14 @@ color: #9a031e;
    margin: 16px;
  }
 
-/*card*/
+/*Portfolio seccion*/
 
 
 .Project {
 	color: #fff;
 	position: relative;
-	margin: 1.5rem;
+  margin: 1.5rem;
+ 
 }
 
 .Project-meta {
@@ -185,11 +187,14 @@ color: #9a031e;
 	text-align: right;
 }
 
+img{
+  transition: all 0.5s ease;
+}
 
-.card:hover{
+img:hover{
   cursor: pointer;
-  border: 3px solid black;
- -webkit-transform:scale(1.1);transform:scale(1.1);
+  transform: scale(0.9);
+
 }
 
 .grid {
@@ -199,6 +204,7 @@ color: #9a031e;
 }
 
 .images {
+
   width: 25rem;
   max-width: 300px;
   max-height: 300px;
@@ -211,6 +217,7 @@ color: #9a031e;
 form {
   width: 100%;
   padding: 2%;
+  font-family: 'Alegreya', serif;
 }
 
 input {
@@ -240,7 +247,7 @@ textarea {
 }
 
 .resume a{
-  color: #9a031e;
+  color: var(--primary-color);
 }
 
 .elemtSkill  ul  {

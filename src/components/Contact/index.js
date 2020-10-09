@@ -45,7 +45,7 @@ function Contact() {
 
 
     return (
-        <main>
+        <main className="container">
         <section>
             <h1 data-testid="h1">Contact me</h1>
             <form id="contact-form" className="otherForm" onSubmit={handleSubmit}>
