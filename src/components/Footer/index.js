@@ -16,7 +16,7 @@ function Footer() {
                 <p>annia.valdesd@gmail.com</p>
                 <a href=" https://www.linkedin.com/in/annia-valdes-diaz-77b2591a8/" target="_blank" ><FontAwesomeIcon icon={faLinkedin} /></a>
 
-                <a href=" https://github.com/anniavd?tab=repositories" target="_blank"><FontAwesomeIcon icon={faGithubSquare} /> </a>
+                <a href=" https://github.com/anniavd" target="_blank"><FontAwesomeIcon icon={faGithubSquare} /> </a>
 
             </div>
         </section>
