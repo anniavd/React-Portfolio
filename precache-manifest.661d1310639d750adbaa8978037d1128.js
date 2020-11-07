@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "351dfc65715ee3c9cab6b1865ef4f85f",
+    "revision": "03e7742cc44fa89bc8e0040ee90d5f47",
     "url": "/react-portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "0179c877b7fe575289e8",
+    "revision": "f4437964baa11784d841",
     "url": "/react-portfolio/static/css/main.ac4ec345.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/js/2.6f97b701.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0179c877b7fe575289e8",
-    "url": "/react-portfolio/static/js/main.e114c0cf.chunk.js"
+    "revision": "f4437964baa11784d841",
+    "url": "/react-portfolio/static/js/main.23472950.chunk.js"
   },
   {
     "revision": "aff33cef9dbb8787d6b3",
@@ -30,6 +30,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "da56b3564496a26fd742749ab2d33c42",
     "url": "/react-portfolio/static/media/ann.da56b356.jpg"
+  },
+  {
+    "revision": "951484a01398b8f1177f71c468a35b71",
+    "url": "/react-portfolio/static/media/book.951484a0.jpg"
+  },
+  {
+    "revision": "e6c77e385a4867af555ca3cb9375a094",
+    "url": "/react-portfolio/static/media/code.e6c77e38.jpg"
   },
   {
     "revision": "192bcf58b2f1f1e3c52c8d6cd4e3cdf6",
@@ -52,6 +60,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/password.bed4a5dd.jpg"
   },
   {
+    "revision": "c56db922ce9a538984e3a9030f519414",
+    "url": "/react-portfolio/static/media/photo.c56db922.jpg"
+  },
+  {
     "revision": "88ac313d291ea971614486cf306e8018",
     "url": "/react-portfolio/static/media/project1.88ac313d.png"
   },
@@ -64,11 +76,23 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/screenshot.a92d965b.jpg"
   },
   {
+    "revision": "fcab40dcaa095b9cbde005d8e0083da5",
+    "url": "/react-portfolio/static/media/shop.fcab40dc.jpg"
+  },
+  {
     "revision": "f0a78d1e921d8abcefcc2d508fb56cde",
     "url": "/react-portfolio/static/media/team-members.f0a78d1e.jpg"
   },
   {
+    "revision": "f5ce4d25072434683244476e31e3477e",
+    "url": "/react-portfolio/static/media/tech-blog.f5ce4d25.jpg"
+  },
+  {
     "revision": "8e12f3682ab591e5ab207dbe38ebe9d1",
     "url": "/react-portfolio/static/media/weather.8e12f368.jpg"
+  },
+  {
+    "revision": "87716d144119f050321717ea087d3b5a",
+    "url": "/react-portfolio/static/media/words-projects.87716d14.png"
   }
 ]);
