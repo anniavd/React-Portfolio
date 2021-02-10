@@ -114,7 +114,50 @@ function AppsList() {
             githubLink: 'https://github.com/anniavd/code-quiz',
             deploy: 'https://anniavd.github.io/code-quiz/',
             technologies: 'HTML/CSS,Javascritp'
-        }
+        },
+        {
+            name: 'Deep Thoughts',
+            image: 'thoughts.jpg',
+            githubLink: 'https://github.com/anniavd/deep-thoughts',
+            deploy: 'https://deepsthought.herokuapp.com/',
+            technologies: 'HTML/CSS,Javascritp,React,MongoDB,Graphql,JWT'
+        },
+        {
+            name: 'Pizza Hunt',
+            image: 'pizza.jpg',
+            githubLink: 'https://github.com/anniavd/pizza-hunt',
+            deploy: 'https://tranquil-refuge-93011.herokuapp.com/',
+            technologies: 'HTML/CSS,Javascritp,Heroku'
+        },
+        {
+            name: 'Zoo Keepr',
+            image: 'zoo.jpg',
+            githubLink: 'https://github.com/anniavd/zookeepr',
+            deploy: 'https://zookeepr1.herokuapp.com/',
+            technologies: 'HTML/CSS,Javascritp,Node,Express,Jest,Heroku'
+        },
+        {
+            name: 'Git it Done',
+            image: 'git-it-done.jpg',
+            githubLink: 'https://github.com/anniavd/git-it-done',
+            deploy: 'https://anniavd.github.io/git-it-done/',
+            technologies: 'HTML/CSS,Javascritp'
+        },
+        {
+            name: 'Jest RPG',
+            image: 'jest.jpg',
+            githubLink: 'https://github.com/anniavd/jest-RPG',
+            deploy: 'https://github.com/anniavd/jest-RPG',
+            technologies: 'Node,Javascritp'
+        },
+         {
+            name: 'Budget Tracker',
+            image: 'tracker.jpg',
+            githubLink: 'https://github.com/anniavd/budget-tracker',
+            deploy: 'https://damp-springs-37599.herokuapp.com/',
+            technologies: 'HTML/CSS,Javascritp,Compression/MongoDB,Heroku'
+        }     
+        
 
     ]);
 

@@ -14,7 +14,7 @@ function About() {
                 <Container>
                     <Row>
                         <Col >
-                            <Image src={img} roundedCircle alt="Annia Valdes" />
+                            <Image src={img} fluid rounded alt="Annia Valdes" />
                         </Col>
 
                         <p> My name is Annia Valdes Diaz. I am a graduate in Computer Science Engineering since 2008.

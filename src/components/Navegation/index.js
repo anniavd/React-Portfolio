@@ -5,7 +5,7 @@ import { faCode } from '@fortawesome/free-solid-svg-icons';
 //<i class="fas fa-code"></i>
 function Navegation(props) {
 
-  const tabs = ['About', 'Portfolio', 'Contact','Resume'];
+  const tabs = ['About', 'Portfolio','Resume'];
  
  
   return (

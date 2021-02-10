@@ -23,7 +23,6 @@ main{
 
 }
 
-
   /* style header star */
 .navegation {
   width: 100%;
@@ -212,7 +211,7 @@ img:hover{
 
   width: 25rem;
   max-width: 300px;
-  max-height: 300px;
+  max-height: 500px;
   display: block;
   
 }
@@ -333,6 +332,7 @@ h1,h2,h3,a{
  .navegation ul li a{
 font-size: 25px;
  }
+ 
 
  header h2 {
    font-size: 25px;
