@@ -21,8 +21,9 @@ NONE
 # Technologies 
  - HTML
 - CSS
+- Javascript
 - REACT.JS
-- REACT-BOOTSTRAP
+- BOOTSTRAP 4
 
 
 # Questions

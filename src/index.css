@@ -126,20 +126,7 @@ h1,h3{
 }
 
 
-/*.otherForm{
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  border-radius: 5px;
-  background-color:#cb997e;
-  width: 60%;
-}
 
-.otherForm label{
-font-size: 18px;
-font-weight: bold;
-color: var(--primary-color);
-}*/
 
 /*footer*/
 .footer{ 
