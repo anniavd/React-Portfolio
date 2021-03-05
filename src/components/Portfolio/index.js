@@ -2,34 +2,38 @@ import React from 'react';
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+
 
 
 
 function Portfolio(props) {
 
-//render all the applications in Portfolio
+  //render all the applications in Portfolio
   return (
 
-    <Row >
-      <Col mb={3}>
-        <h3>{props.name}</h3>
-        <div className="Project">
-          <a href={props.deploy} target="blank">
-            <img className="images"
-              src={require(`../../assets/images/${props.image}`)} alt={props.name}
+ 
+    <Row>          
+        <div className="col s12 m4 Project-meta ">
+          <div className="card ">
+            <h3 className="text-portfolio">{props.name}</h3>
+            <a href={props.deploy} target="blank">
+              <img className="images"
+                src={require(`../../assets/images/${props.image}`)} alt={props.name}
 
-            />
-          </a>
-          <div className="Project-meta">
-            <p>{props.technologies}</p>
-            <a href={props.githubLink} target="_blank" rel="noopener noreferrer" ><FontAwesomeIcon icon={faGithubSquare} /> </a>
+              />
+            </a>
+            <div className="Project-meta">
+              <p>{props.technologies}</p>
+              <a href={props.githubLink} target="_blank" rel="noopener noreferrer" >
+                <FontAwesomeIcon color="#4d4d4d" icon={faGithubSquare} />
+              </a>
+            </div>
           </div>
-        </div>
-      </Col>
-    </Row >
-
-  )
+        </div>  
+      
+    </Row>
+ 
+  );
 }
 
 export default Portfolio;
