@@ -1,9 +1,7 @@
 import React from 'react';
-import Image from 'react-bootstrap/Image';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import img from '../../assets/images/ann.jpg';
 import Container from 'react-bootstrap/Container'
+import Figure from 'react-bootstrap/Figure';
 
 function About() {
     //render infor for About
@@ -12,26 +10,28 @@ function About() {
             <section>
                 <h1 className="about" >About me</h1>
                 <Container>
-                    <Row>
-                        <Col >
-                            <Image src={img} roundedCircle alt="Annia Valdes" />
-                        </Col>
-
-                        <p> My name is Annia Valdes Diaz. I am a graduate in Computer Science Engineering since 2008.
-                        I have 4 years of experience worked with software development team.
-                        I worked in software development projects at the University of Computer Sciences (UCI ).
-                        During this time I assumed the roles like a Principal System Analyst, Project Leader,
-                       Unit Test Designer for the software and Software Quality Control.<br></br>
-                       <br></br>
-                       As a developer I am looking for new challenges. I am friendly, charismatic and I like to research.
+                    <Figure>
+                        <Figure.Image
+                            width={250}
+                            height={250}                           
+                            src={img}
+                        />
+                        <Figure.Caption>
+                            <p ClassName="fontStyle" > My name is Annia Valdes Diaz. I am a graduate in Computer Science Engineering since 2008.
+                            I have 6 years of experience worked with software development team.
+                            I worked in software development projects at the University of Computer Sciences (UCI ).
+                            During this time I assumed the roles like a Principal System Analyst, Project Leader,
+                          Unit Test Designer for the software and Software Quality Control.<br></br>
+                                <br></br>
+                         As a developer I am looking for new challenges and keep growing with new technologies. I am friendly, charismatic and I like to research.
                         I like to watch documentaries, to travel and to go out with my family.
 
                           </p>
-                    </Row>
+                        </Figure.Caption>
+                    </Figure>
                 </Container>
             </section>
         </main>
-
     );
 }
 
