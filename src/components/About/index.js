@@ -18,12 +18,12 @@ function About() {
                         />
                         <Figure.Caption>
                             <p ClassName="fontStyle" > My name is Annia Valdes Diaz. I am a graduate in Computer Science Engineering since 2008.
-                            I have 6 years of experience worked with software development team.
+                            I have more than 5 years of experience worked with software development team  in full-cycle software life.
                             I worked in software development projects at the University of Computer Sciences (UCI ).
                             During this time I assumed the roles like a Principal System Analyst, Project Leader,
                           Unit Test Designer for the software and Software Quality Control.<br></br>
                                 <br></br>
-                         As a developer I am looking for new challenges and keep growing with new technologies. I am friendly, charismatic and I like to research.
+                         As a developer I am looking for new challenges and keep growing with new technologies. I am friendly,charismatic and I like to research.
                         I like to watch documentaries, to travel and to go out with my family.
 
                           </p>

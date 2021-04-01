@@ -22,7 +22,7 @@ const [currentPage,setCurrentPage]=useState('About')
 
   return (
   
-    <div>
+    <div className="General">
      <Navegation currentPage={currentPage} setCurrentPage={setCurrentPage}/>
      {renderPage()}       
      <Footer></Footer>    

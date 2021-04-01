@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 import Navbar from 'react-bootstrap/Navbar';
-
+import img from '../../assets/images/header.png';
 
 function Navegation(props) {
 
@@ -13,13 +13,14 @@ function Navegation(props) {
   return (
 
     <header className="navegation">
+          
       <h2 ><FontAwesomeIcon icon={faCode} style={{ fontSize: '20px' }} />
         Annia Valdes
      </h2>
       <>
         <div>
           <Navbar>
-
+       
             <ul className="nav  nav-tabs justify-content-end" >
               {tabs.map(tab => (
                 <li className="nav-item" key={tab}>

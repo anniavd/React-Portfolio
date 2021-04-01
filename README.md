@@ -6,7 +6,7 @@
 
 # Description
 
-The **portfolio** is the resume of my career as developer. You can read about me,the activities I did and continue to do. Show information about my studies and currently. You can see my recent projects,resume and contact me through different means.
+The **portfolio** is the resume of my career as developer. You can read about me,the activities I did and continue to do. Show information about my studies and currently. You can see my recent projects,resume and contact me through different means.For see deploy apps clic in each picture.
 
   
  ![Homepage](src/assets/images/screenshot.jpg)
@@ -19,8 +19,8 @@ The license for which the application is covered:
 NONE 
 
 # Technologies 
- - HTML
-- CSS
+ - HTML5
+- CSS3
 - Javascript
 - REACT.JS
 - BOOTSTRAP 4
